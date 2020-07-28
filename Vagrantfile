@@ -9,19 +9,19 @@ Vagrant.configure("2") do |config|
     app.vm.box = "ubuntu/xenial64"
     app.vm.network "private_network", ip: "192.168.10.100"
     app.hostsupdater.aliases = ["development.local"]
-    app.vm.synced_folder ".", "/home/vagrant/app"
+    app.vm.synced_folder "app", "/home/vagrant/app"
     app.vm.provision "shell", path: "environment/app/provision.sh", privileged: false
 
   end
   
 
 
-  config.vm.define "db" do |subconfig|
-    subconfig.vm.box = "ubuntu/xenial64"
-    subconfig.vm.network "private_network", ip: "192.168.10.150"
-    subconfig.hostsupdater.aliases = ["development.local"]
-    subconfig.vm.synced_folder "app", "/home/vagrant/app"
-    subconfig.vm.provision "shell", path: "environment/app/provision.sh", privileged: false
+  config.vm.define "db" do |db|
+    db.vm.box = "ubuntu/xenial64"
+    db.vm.network "private_network", ip: "192.168.10.150"
+    db.hostsupdater.aliases = ["database.local"]
+    db.vm.synced_folder "app", "/home/vagrant/app"
+    db.vm.provision "shell", path: "environment/app/provision.sh", privileged: false
   end
 end
 
