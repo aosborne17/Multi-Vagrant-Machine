@@ -44,11 +44,10 @@ it will run when we turn on our Virtual Machines.
 - From the same directory as the vagrant file we run vagrant up, due to our changes if all goes to plan
 after the VM named "app" is created, "db" should also be created afterwards
 
-- We can then change directory into our tests folder and run the command "rake spec". By doing this we will know whether
+- We can then change directory into our tests folder and run the command ``` rake spec ```. By doing this we will know whether
 our VMs are working as they should.
 
 ![vagrant file](images/vm_test_pass_1.png)
-
 
 
 ## Task 3
@@ -56,13 +55,15 @@ our VMs are working as they should.
 - To be able to connect our VM to the MongoDB server using bash scripts we must update the contents within our 
 provision.sh file.
 
-- Initial attempts were not so successful and this highlights the importance of using "rake specs"
+- Initial attempts were not so successful and this highlights the importance of using the tests
 
 
-- After implementing TTD to work towards fixing the issues, we will be able to run rake spec tests with zero failures
+- After implementing TTD to work towards fixing the issues, we will be able to run the tests with zero failures
 on both Virtual Machines
 
  --> another picture
+
+![vagrant file](images/vm_test_pass_1.png)
 
 ## Task Review
 
