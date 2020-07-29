@@ -1,4 +1,4 @@
-# Creating a Multi Vagrant Machine with Linux [:computer:]
+# Creating a Multi Vagrant Machine with Linux :computer:
 
 ## Aims of this activity
 
