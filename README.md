@@ -2,13 +2,13 @@
 
 ## Aims of this activity
 
-### 1) Create a second virtual machine within our vagrant file named "db" [Task 1](#Task 1)
+### 1) Create a second virtual machine within our vagrant file named "db" [Task 1](#Task-1)
 
-### 2) Configure the db machine with a different IP address from the app [Task 2](#Task 2)
+### 2) Configure the db machine with a different IP address from the app [Task 2](#Task-2)
 
-### 3) Provision the db with a MongoDB database [Task 3](#Task 3)
+### 3) Provision the db with a MongoDB database [Task 3](#Task-3)
 
-### 4) Task Review [Task 4](#Task Review)
+### 4) Task Review [Task 4](#Task-Review)
 
 
 ## Task 1
@@ -69,7 +69,7 @@ provision.sh file.
 
 ## Task Review
 
-- DevOps is all about automation and effective building and the task has shown how this has been implemented.
+- One of the main principles of DevOps is automation and efficient development. This task has shown how they have been implemented.
 
 - This task has shown the importance of using bash scripts. Writing all the commands in one provisions file that is executed
 once the vagrant is turned on means that these commands do not have to be written one by one in the terminal.
