@@ -2,9 +2,9 @@
 
 ## Aims of this activity
 
-### 1) [Create a second virtual machine within our vagrant file named "db"](#Task-1)
+### 1) [Create a second virtual machine within our vagrant file with the name "db"](#Task-1)
 
-### 2) [Configure the db machine with a different IP address from the app](#Task-2)
+### 2) [Configure the db machine with a different IP address from the current app virtual machine](#Task-2)
 
 ### 3) [Provision the db with a MongoDB database](#Task-3)
 
