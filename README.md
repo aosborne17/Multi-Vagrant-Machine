@@ -57,13 +57,15 @@ provision.sh file.
 
 - Initial attempts were not so successful and this highlights the importance of using the tests
 
+- After implementing TTD to work towards fixing the issues, this code within the provision.sh
+ will be used to allow a connection to MongoDB
 
-- After implementing TTD to work towards fixing the issues, we will be able to run the tests with zero failures
-on both Virtual Machines
+![vagrant file](images/installing_mongo_db.png)
 
- --> another picture
 
-![vagrant file](images/vm_test_pass_1.png)
+- We will now be able to run the tests with zero failures on both Virtual Machines
+
+![vagrant file](images/all_test_passes.png)
 
 ## Task Review
 
