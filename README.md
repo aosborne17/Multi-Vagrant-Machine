@@ -1,6 +1,6 @@
-# Creating a Multi Vagrant Machine with Linux :computer:
+# Creating a Multi Vagrant Machine with Linux :computer: :computer:
 
-## Aims of this activity
+## Aims of this activity :books:
 
 ### 1) [Create a second virtual machine within our vagrant file with the name "db"](#Task-1)
 
@@ -67,7 +67,7 @@ provision.sh file.
 
 ![vagrant file](images/all_test_passes.png)
 
-## Task Review
+## Task Review :white_check_mark:
 
 - One of the main principles of DevOps is automation and efficient development. This task has shown how they have been implemented.
 
